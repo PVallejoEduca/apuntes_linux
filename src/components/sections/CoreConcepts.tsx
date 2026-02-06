@@ -85,7 +85,7 @@ export function CoreConcepts() {
         style={{ willChange: 'transform, opacity' }}
       >
         <img
-          src={`${import.meta.env.BASE_URL}hero-terminal.jpg`}
+          src="/hero-terminal.jpg"
           alt="Linux filesystem"
           className="w-full h-full object-cover"
         />

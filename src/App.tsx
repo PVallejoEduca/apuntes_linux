@@ -15,6 +15,7 @@ import { Practice } from './components/sections/Practice';
 import { Assessment } from './components/sections/Assessment';
 import { ReferenceHub } from './components/sections/ReferenceHub';
 import { FilesystemTree } from './components/sections/FilesystemTree';
+import { PermissionsGuide } from './components/sections/PermissionsGuide';
 import { Footer } from './components/sections/Footer';
 
 import type { Module } from './data/courseData';
@@ -114,6 +115,7 @@ function App() {
         <Hero />
         <StartHere />
         <FilesystemTree />
+        <PermissionsGuide />
         <Modules onModuleClick={handleModuleClick} />
         <CoreConcepts />
         <CommandCards />
