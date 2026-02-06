@@ -111,7 +111,7 @@ export function Hero() {
         style={{ willChange: 'transform, opacity' }}
       >
         <img
-          src="/hero-terminal.jpg"
+          src={`${import.meta.env.BASE_URL}hero-terminal.jpg`}
           alt="Terminal Linux en entorno natural"
           className="w-full h-full object-cover"
         />
